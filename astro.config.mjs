@@ -10,7 +10,7 @@ import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astrofy-template.netlify.app',
+  site: 'https://saltito.vercel.app/',
   integrations: [mdx(), sitemap(), tailwind(), image({
     serviceEntryPoint: '@astrojs/image/sharp',
     cacheDir: "./.cache/image",
