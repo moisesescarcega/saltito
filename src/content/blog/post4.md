@@ -1,7 +1,7 @@
 ---
 title: "30 de junio"
 description: "Avance de obra"
-pubDate: "Jun 30 2023"
+pubDate: "Sep 14 2022"
 heroImage: "/post_img.webp"
 badge: "Demo badge"
 ---
