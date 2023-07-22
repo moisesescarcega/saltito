@@ -1,25 +1,240 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
+import { Image } from "@astrojs/image/components";
 ---
 
-<BaseLayout title="Resume" sideBarActiveItemID="cv">
+<BaseLayout title="Proyecto" sideBarActiveItemID="cv">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+    <div class="text-3xl w-full font-bold">Memoria descriptiva de Proyecto</div>
   </div>
 
   <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    El área de asador exterior, se trata de una variación de construcción tipo palapa que contiene los espacios cubiertos para sala y comedor al aire libre, además de la cocina para exterior equipada con los elementos necesarios para una variada cantidad de actividades posibles. Dicha construcción se encuentra separada del muro de colindancia, permitiendo un jardín en el perímetro norte y oriente. Se anexa, además un área de sala descubierta con fogata, y un medio baño con la zona del WC cubierta, adosada al muro de piedra que enmarca la colindancia de la propiedad.
+  </div>
+
+  <div class="mb-10 text-justify">
+    La construcción se desplanta sobre losa de cimentación abarcando 41 metros cuadrados de construcción cubierta en tres plataformas, el anexo separado del medio baño con 3 metros cuadrados de construcción cubierta, y una construcción tipo rústica descubierta de 12 metros cuadrados que se destina al área de sala exterior. 
+  </div>
+
+  <div class="mb-10 text-justify">
+    Las zonas cubiertas se desarrollan sobre una plataforma principal de 21.7 m² de superficie y dos plataformas secundarias laterales, a 18 cm de diferencia debajo de la principal. Un tercer volumen a la misma altura de las plataformas secundarias se encuentra desincorporado para integrar el medio baño.  
+  </div>
+
+  <Image
+    aspectRatio={"1:1"}
+    width={750}
+    format="webp"
+    src="https://palapasaltito.aresdi.com/fotos/mem01.jpg"
+    alt="planta general"
+    class="w-full p-8"
+  />
+
+  <div class="mb-10 text-justify">
+    La cubierta de estas zonas se consideran de teja de barro natural, apoyadas sobre bastidor metálico que descargan sobre perfiles metálicos variados, desplantados sobre basamentos de concreto armado. Las delimitaciones de la construcción se desarrollan a lo largo de los ejes A y 1, y constan de muretes de hasta 1 m de altura respecto del nivel de piso terminado de cada plataforma, en el eje D también con murete y en el eje 4 con muro alto. Los espacios de actividad interior tienen los siguientes elementos sobre la plataforma principal: 
+    <ul>
+      <li> Barra de asador y parrilla con espacios de guardado bajo la encimera.</li>
+      <li> Horno de leña o gas en esquina con áreas de trabajo a ambos laterales y espacio esquinero para guardado.</li>
+      <li> Barra con tarja y espacio de guardado.</li>
+      <li> Isla con parrilla y comal con bola, con barra de servicio en frente.</li>
+    </ul>
+    Además, sobre esta plataforma se considera el espacio para refrigerador y/o frigobar.
+    Las plataformas laterales se consideran como áreas sociales en las cuales se puede colocar mobiliario diverso. En la plataforma sur-oriente se incluye una banca de material y el muro de delimitación sube a una mayor altura para permitir proyecciones. 
+  </div>
+
+  <Image
+    aspectRatio={"1:1"}
+    width={750}
+    format="webp"
+    src="https://palapasaltito.aresdi.com/fotos/mem02.jpg"
+    alt="distribución"
+    class="w-full p-8"
+  />
+
+  <div class="mb-10 text-justify">
+    El acceso a los espacios se ubica en el centro de la construcción, entre los ejes C y 3, desde donde se circula a los espacios de uso y actividad. El control de acceso se da mediante puertas de herrería metálicas, de baja altura, cuyo propósito es más bien la delimitación del espacio, y se integra a una barda integral de herrería y barda naturada que recorre desde la intersección de los ejes D y 2, hasta la intersección de los ejes B y 4. La distribución espacial permite el uso eventual (para ocasiones especiales) o habitual (para actividades que se puedan desarrollar más comúnmente como comidas en fines de semana o más frecuentemente durante la semana), ya que cuenta con las instalaciones de agua, electricidad, gas y drenaje, provistas desde las instalaciones de la casa. 
+  </div>
+
+  <div class="mb-10 text-justify">
+    Como zona de uso habitual, dispone de áreas de trabajo de cocina: guardado, preparación, cocción y servicio, con el esquema de funcionamiento ideal de la línea de actividad de una cocina de mediana demanda.
+  </div>
+
+  <Image
+    aspectRatio={"1:1"}
+    width={750}
+    format="webp"
+    src="https://palapasaltito.aresdi.com/fotos/mem03.jpg"
+    alt="zonificación"
+    class="w-full p-8"
+  />
+
+  <div class="mb-10 text-justify">
+    La isla con parrilla y comal permiten, además, la actividad de cocina casual con servicio en el mismo espacio, en el que se pueden disponer de bancas altas o tipo ‘periqueras’ o de bar. Este elemento permite, de hecho, la delimitación virtual entre las zonas de trabajo y las de esparcimiento social. Coincide con los ejes constructivos B y 2, y hace una transición hacia las zonas de circulación en los ejes C y 3 con un escalón que descarga en las plataformas laterales. 
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Education</div>
+    <div class="text-2xl w-full font-bold">Consideraciones ambientales</div>
   </div>
 
-  <div class="time-line-container grid gap-4 mb-10">
+  <div class="mb-10 text-justify">
+    Se tomaron en cuenta los elementos ambientales que afectan el confort y
+funcionamiento de las áreas cubiertas, incluyendo la influencia solar, viento, clima,
+orientación y precipitación pluvial. Para la consideración del viento, se estimaron dos épocas principales: de mayo a
+noviembre, con dirección del viento dominante desde el este, en clima de verano y
+otoño; y el resto del año con dirección del viento predominantemente de oeste.
+  </div>
+
+  <div class="mb-10 text-justify">
+    La orientación de los elementos, y la posición despegada del muro de colindancia,
+permiten el flujo del aire hacia la esquina nor-oriente, de tal forma que se aprovechan las
+dos posibles corrientes de aire principales: cuando el viento viene desde el este, la parte
+más alta de la cubierta permite el flujo del aire con mayor velocidad, generando una
+disminución de la presión, lo que permite extraer el aire en el área cubierta.
+  </div>
+
+  <div class="mb-10 text-justify">
+    Para que esto sea posible, la parte
+superior de la cubierta se separa y deja
+correr el aire por encima de la cubierta.
+El viento dominante del oeste es
+aprovechado para permitir la salida y
+flujo del aire gracias a la separación del
+muro de colindancia.
+  </div>
+
+  <div class="mb-10 text-justify">
+    Para la consideración solar, se tomó en cuenta el recorrido solar en distintas épocas del
+año, y se diseñaron los espacios de acuerdo a una orientación más efectiva, dejando las
+zonas calientes en el centro y esquina nor-oriente, evitando mayor ganancia térmica y
+permitiendo que el viento pudiera fluir y regular el ambiente.
+  </div>
+
+  <div class="mb-10 text-justify">
+    Las zonas en las plataformas laterales están cubiertas y se pueden aprovechar en ambas
+orientaciones: La sala cubierta se encuentra al poniente, permitiendo el uso óptimo en
+desayunos y comidas en verano, y cenas en invierno por la ganancia solar de la época
+que lo permite. La plataforma al sur-oriente con la banca de material es versátil a
+convertirse en un comedor, o como espacio de convivencia en cualquier época.
+  </div>
+
+  <div class="mb-10 text-justify">
+    El diseño de la cubierta aligerada permite la protección de la intemperie, particularmente
+del sol, pero también de la lluvia. Se propone la teja de barro como material de cubierta,
+por sus propiedades de protección térmica, la resistencia a la humedad y el viento, y su
+perfil estético coherente con el de la casa. También hay que considerar su absorción
+acústica en lluvia o granizo, lo que la hace ideal. La cubierta cubre la totalidad del área de
+plataformas, volando 50 cm hacia el norte y al este para brindar confort adicional en
+verano, y reducir el deterioro de los muebles.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-2xl w-full font-bold">Consideraciones constructivas</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    La plataforma principal se encuentra aproximadamente 20 cm sobre el nivel de acceso de
+la casa, debido a la distancia y la pendiente que se requiere hacia el área de jardín, y el
+dren pluvial al sur del predio. Cumple con una pendiente adecuada, además, para
+desalojar drenaje a través del recorrido de las instalaciones sanitarias que se dispondrán
+al costado oriente del predio.
+  </div>
+
+  <div class="mb-10 text-justify">
+    Los materiales utilizados, por su practicidad y garantía de calidad contra la intemperie,
+son concreto armado en losas y elementos estructurales en basamento, albañilería con
+mampostería de block y mortero, acabados repellados en muros y divisiones, estructura
+metálica a partir del metro de altura con perfiles PTR, OC y monten C de diversas
+dimensiones y diámetros con uniones soldadas para delimitar el contorno y soportar la
+cubierta de teja de barro.
+  </div>
+
+  <div class="mb-10 text-justify">
+    Para la construcción de elementos estructurales de concreto armado en basamento se
+recomienda el uso de concreto con resistencia fc de 250 kg/cm2 en dados y/o zapatas, y
+fc de 200 kg/cm2 en contratrabes, cadenas, columnas y castillos. Para losas de concreto
+armado es suficiente con una resistencia de 150 o 100 kg/cm2, igualmente para mesetas y
+repisas.
+  </div>
+
+  <div class="mb-10 text-justify">
+    El armado de elementos de concreto se recomienda con varilla de 1⁄2” y de 3⁄8” en dados y
+columnas, y estribos con alambrón. Losas se pueden armar con malla electrosoldada 6-
+6/10-10 o más gruesa, y cadenas integradas de la losa con armex 10x15. Las uniones de
+estos elementos hacia los bordes, con varilla de 3⁄8”. Las uniones entre estructura de
+concreto y perfiles metálicos se recomienda a través de placa metálica de 3⁄8” o 1⁄2”,
+ancladas al concreto con espárragos de alta resistencia o anclas especiales de 1⁄2”, y la
+unión entre placa y perfiles metálicos, reforzada con cartabones de placa de 1⁄2”.
+  </div>
+
+  <div class="mb-10 text-justify">
+    La altura de cubierta inclinada se ha estimado desde 2.4 m en el acceso, hasta 3.07 en
+los ejes B y 2, y el elemento elevado de cubierta a 3.6 m entre las intersecciones de los
+ejes A-1 y B-2.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-2xl w-full font-bold">Consideraciones para acabados</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Para garantizar la durabilidad de la construcción y reducir el deterioro, se recomienda el
+revoque de muros con repellado y aplanado y pintura. Para las superficies de encimera y
+áreas de trabajo se puede considerar cemento pulido o recubrimiento con chukúm, que
+igualmente se puede utilizar sobre muros y otras superficies. Para el piso en plataforma
+principal se recomienda el uso de loseta cerámica o cemento pulido, y zoclos en
+contornos, para una mejor limpieza y mantenimiento. Para las plataformas secundarias se
+puede optar por cantera o recinto, o loseta cerámica. Se puede usar también concreto
+estampado y detalles con concreto lavado en contornos para enmarcar el escalón entre
+plataformas.
+  </div>
+
+  <div class="mb-10 text-justify">
+    Los perfiles metálicos deberán estar protegidos con esmalte anticorrosivo especial
+para evitar el deterioro, con atención en detalles expuestos y uniones entre
+perfiles.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-2xl w-full font-bold">Instalaciones</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Se recomienda el uso de materiales propios para exteriores, en instalaciones
+eléctricas y de gas, como el uso de tubo flexible ‘liquidtight’ en paso por piso,
+conduit corrugado en paso a través de losa, y conduit galvanizado en tubería
+eléctrica exterior. Contactos dispuestos a una altura de al menos 60 cm del nivel
+del piso, y apagadores a al menos 1.10 m de altura, en todos los casos protegidos
+en cajas tipo chalupa especiales para exteriores.
+  </div>
+
+  <div class="mb-10 text-justify">
+    El paso de tuberías para agua y drenaje pueden realizarse con los materiales
+comunes como ‘tuboplus’ o cobre en tubería de agua potable, y PVC sanitario para
+drenajes.
+  </div>
+
+  <div class="mb-10 text-justify">
+    La iluminación se propone con luz tipo ‘led’, en el contorno del bastidor de cubierta,
+y en todos los contornos que sigan a los ejes estructurales. Esto permite la
+iluminación directa sin provocar sombras en las áreas de trabajo, y permite una
+difusión adecuada de luz a todas las áreas. Para el paso de electricidad hacia las
+salidas de iluminación se puede pasar a través de conduit galvanizado, o a través
+de la misma estructura metálica, siempre que se contemple registros de paso en
+las columnas de concreto, preparados antes del colado de dichas columnas.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-2xl w-full font-bold">Consideraciones adicionales</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Se recomienda el desarrollo y elaboración de detalles ejecutivos complementarios
+a esta propuesta, y la elaboración de bitácora de obra para un seguimiento del
+avance. La supervisión puede estar acompañada de un control con programa de
+trabajo y la elaboración de estos detalles.
+  </div>
+
+  <!-- <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
       title="Title Name"
       subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
@@ -88,5 +303,5 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>Skill Name</li>
     <li>Skill Name</li>
     <li>Skill Name</li>
-  </ul>
+  </ul> -->
 </BaseLayout>

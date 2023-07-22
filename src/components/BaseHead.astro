@@ -9,7 +9,7 @@ export interface Props {
 	image?: string;
 }
 
-const { title, description, image = '/social_img.png' } = Astro.props;
+const { title, description, image = 'https://palapasaltito.aresdi.com/fotos/asador_saltito_m.jpg' } = Astro.props;
 ---
 
 <!-- Global Metadata -->
@@ -24,14 +24,14 @@ const { title, description, image = '/social_img.png' } = Astro.props;
 <meta name="description" content={description} />
 
 <!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
+<meta property="og:type" content="Asador exterior" />
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={new URL(image, Astro.url)} />
 
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:card" content="Asador exterior" />
 <meta property="twitter:url" content={Astro.url} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />

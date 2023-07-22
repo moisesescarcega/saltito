@@ -1,13 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 36 36">
-  <path fill="#000" d="M22.25 4h-8.5a1 1 0 0 0-.96.73l-5.54 19.4a.5.5 0 0 0 .62.62l5.05-1.44a2 2 0 0 0 1.38-1.4l3.22-11.66a.5.5 0 0 1 .96 0l3.22 11.67a2 2 0 0 0 1.38 1.39l5.05 1.44a.5.5 0 0 0 .62-.62l-5.54-19.4a1 1 0 0 0-.96-.73Z"/>
-  <path fill="url(#gradient)" d="M18 28a7.63 7.63 0 0 1-5-2c-1.4 2.1-.35 4.35.6 5.55.14.17.41.07.47-.15.44-1.8 2.93-1.22 2.93.6 0 2.28.87 3.4 1.72 3.81.34.16.59-.2.49-.56-.31-1.05-.29-2.46 1.29-3.25 3-1.5 3.17-4.83 2.5-6-.67.67-2.6 2-5 2Z"/>
-  <defs>
-    <linearGradient id="gradient" x1="16" x2="16" y1="32" y2="24" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#000"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-	<style>
-    @media (prefers-color-scheme:dark){:root{filter:invert(100%)}}
-  </style>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   xml:space="preserve"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs6"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath18"><path
+         d="M 263,0 H 6299 V 5062 H 263 V 0"
+         id="path16" /></clipPath></defs><g
+     id="layer1"
+     transform="matrix(0.16,0,0,-0.16,2.6666666,813.33333)"
+     style="display:none"><g
+       id="g12-3"
+       transform="translate(-8.996582e-7,2.5447845e-5)"><path
+         d="M 804.79983,4576.2777 307.98091,3715.845 200.27681,3902.1521 804.79983,4948.8919 1301.6188,4088.4592 h -215.1082"
+         style="fill:#bcbcbc;fill-opacity:1;stroke:#4a4a4a;stroke-width:12.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path22-9" /><path
+         d="M 1086.5106,4088.4592 912.20389,4389.9706 738.19723,4088.4592 h 348.31337"
+         style="fill:none;stroke:#4a4a4a;stroke-width:12.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path20-1" /><path
+         d="M 1624.131,3902.1521 1516.7269,3715.845 H 307.98091"
+         style="fill:none;stroke:#4a4a4a;stroke-width:12.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path24-9" /><path
+         d="M 804.79983,4948.8919 H 1019.908 L 1624.131,3902.1521 H 630.79325"
+         style="fill:none;stroke:#4a4a4a;stroke-width:12.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path26-6" /><path
+         d="M 912.20389,4389.9706 804.79983,4576.2777"
+         style="fill:none;stroke:#4a4a4a;stroke-width:12.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path28-9" /><path
+         d="M 738.19723,4088.4592 630.79325,3902.1521"
+         style="fill:none;stroke:#4a4a4a;stroke-width:12.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path30-3" /><text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:451.281px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:31.25px;fill:#4a4a4a;fill-opacity:1;stroke-width:11.282"
+         x="46.685047"
+         y="-3293.1973"
+         id="text934-3"
+         transform="scale(1,-1)"><tspan
+           id="tspan932-8"
+           x="46.685047"
+           y="-3293.1973"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';fill:#4a4a4a;fill-opacity:1;stroke-width:11.282">ARESDI</tspan></text></g></g><g
+     id="g10"
+     transform="matrix(0.16,0,0,-0.16,2.6666666,813.33333)"
+     style="display:none"><g
+       id="g12"><path
+         d="M 804.79983,4576.2777 307.98091,3715.845 200.27681,3902.1521 804.79983,4948.8919 1301.6188,4088.4592 h -215.1082"
+         style="fill:#ffa5be;fill-opacity:1;stroke:#0092a4;stroke-width:12.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path22" /><path
+         d="M 1086.5106,4088.4592 912.20389,4389.9706 738.19723,4088.4592 h 348.31337"
+         style="fill:none;stroke:#0092a4;stroke-width:12.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path20" /><path
+         d="M 1624.131,3902.1521 1516.7269,3715.845 H 307.98091"
+         style="fill:none;stroke:#0092a4;stroke-width:12.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path24" /><path
+         d="M 804.79983,4948.8919 H 1019.908 L 1624.131,3902.1521 H 630.79325"
+         style="fill:none;stroke:#0092a4;stroke-width:12.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path26" /><path
+         d="M 912.20389,4389.9706 804.79983,4576.2777"
+         style="fill:none;stroke:#0092a4;stroke-width:12.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path28" /><path
+         d="M 738.19723,4088.4592 630.79325,3902.1521"
+         style="fill:none;stroke:#0092a4;stroke-width:12.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path30" /><text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:451.281px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:31.25px;fill:#8e3f5f;fill-opacity:1;stroke-width:11.282"
+         x="46.685047"
+         y="-3293.1973"
+         id="text934"
+         transform="scale(1,-1)"><tspan
+           id="tspan932"
+           x="46.685047"
+           y="-3293.1973"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';fill:#8e3f5f;fill-opacity:1;stroke-width:11.282">ARESDI</tspan></text></g></g><g
+     id="layer2"><g
+       id="g943"
+       transform="translate(201.34834,7.90017)"><path
+         style="fill:#bcbcbc;fill-opacity:1;stroke:#4a4a4a;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M -165.28904,188.98899 -68.56536,21.510622 10.92567,159.17985 h -34.41731 l -45.07372,-78.050956 -79.49103,137.669236 -17.23265,-29.80914"
+         id="path922" /><path
+         style="fill:#ffffff;fill-opacity:1;stroke:#4a4a4a;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -68.56536,21.510622 h 34.41731 L 62.52763,188.98899 H -96.40641 l 17.18463,-29.80914 h 90.14745 z"
+         id="path926" /><path
+         style="fill:none;stroke:#4a4a4a;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M -68.56536,81.128894 -148.05639,218.79813 H 45.34297 L 62.52763,188.98899 H -96.40641 l 45.0257,-78.05096 z"
+         id="path928" /></g></g></svg>

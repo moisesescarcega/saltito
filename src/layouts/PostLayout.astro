@@ -9,14 +9,14 @@ export interface Props extends BlogSchema {}
 const { title, description, pubDate, updatedDate, heroImage, badge } =
   Astro.props;
 dayjs.extend(localizedFormat);
-const displayDate = dayjs(pubDate).format("ll");
+const displayDate = dayjs(pubDate).format("DD/MM/YYYY");
 import { Image } from "@astrojs/image/components";
 ---
 
 <BaseLayout title={title} description={description} image={heroImage}>
   <main class="md:flex md:justify-center">
     <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
-      {
+      <!-- {
         heroImage && (
         <Image
             aspectRatio={"16:9"}
@@ -28,8 +28,8 @@ import { Image } from "@astrojs/image/components";
             class="w-full mb-6"
           />
         )
-      }
-      <h1 class="title my-2 text-4xl font-bold">{title}</h1>
+      } -->
+      <h1 class="title my-2 text-4xl font-bold">{description}</h1>
       {pubDate && <time>{displayDate}</time>}
       <br />
       {badge && <div class="badge badge-secondary my-1">{badge}</div>}
